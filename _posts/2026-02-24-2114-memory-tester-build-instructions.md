@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "2114 and 9114 Memory Tester Video and Assembly Instructions"
-date: 2026-02-24
+title: 2114 and 9114 Memory Tester Video and Assembly Instructions
+date: {}
 ---
 ## 2114 and 9114 Memory Tester Video and Assembly Instructions
 ### How it works
@@ -11,7 +11,7 @@ date: 2026-02-24
 
 1. Parts included - These are the parts that are included in the kit.   You will also need a soldering iron, an Arduino Uno, wire cutters, and a PC with a USB port. 
 
-![contents.jpg]({{site.baseurl}}/_posts/contents.jpg)
+![]({{site.baseurl}}/_posts/contents.jpg)
 
 
 2. Assemble upper components.   Insert LEDs, Switches, and the zif socket.   LEDs must be inserted in the correct orientation.    The longer leg should be inserted in the hole on the opposite side of the flat mark on the board. 
