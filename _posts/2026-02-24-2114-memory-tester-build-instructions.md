@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2114 Memory Tester Build Instructions
-date: 2026-02-24
+date: {}
 ---
 
 ## 2114 and 9114 Memory Tester Video and Assembly Instructions
