@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "2114 Memory Tester Build Instructions"
-date: 2026-02-24
+title: 2114 Memory Tester Build Instructions
+date: {}
 ---
 
 ## 2114 and 9114 Memory Tester Video and Assembly Instructions
@@ -11,39 +11,35 @@ date: 2026-02-24
 
 1. Parts included - These are the parts that are included in the kit.   You will also need a soldering iron, an Arduino Uno, wire cutters, and a PC with a USB port. 
 
-![Contents]({{site.baseurl}}/assets/images/contents.jpg)
-
+![contents.jpg]({{site.baseurl}}/assets/images/2114/contents.jpg)
 
 
 2. Assemble upper components.   Insert LEDs, Switches, and the zif socket.   LEDs must be inserted in the correct orientation.    The longer leg should be inserted in the hole on the opposite side of the flat mark on the board. 
 
-![led.jpg]({{site.baseurl}}/_posts/led.jpg)
-
+![led.jpg]({{site.baseurl}}/assets/images/2114/led.jpg)
 
 3.  The board should look like this with the components inserted.
 
-![Upper.jpg]({{site.baseurl}}/_posts/Upper.jpg)
+![Upper.jpg]({{site.baseurl}}/assets/images/2114/Upper.jpg)
 
 
 4. Flip the board over and solder in the components.   Ensure that extra solder does not connect any pins.   Trim the extra wire length off the led legs. 
 
-![flip.jpg]({{site.baseurl}}/_posts/flip.jpg)
+![flip.jpg]({{site.baseurl}}/assets/images/2114/flip.jpg)
 
 
 5. Now cut the pins to fit into the series of holes on the edges of the board.   Extra pins can be saved or discarded. 
 
-![Pins.jpg]({{site.baseurl}}/_posts/Pins.jpg)
-
+![Pins.jpg]({{site.baseurl}}/assets/images/2114/Pins.jpg)
 
 6. Insert the pin sets as shown.
 
-![Pins2.jpg]({{site.baseurl}}/_posts/Pins2.jpg)
+![Pins2.jpg]({{site.baseurl}}/assets/images/2114/Pins2.jpg)
 
 
 7. Solder pins from the top of the board and install the completed shield on your Arduino Uno
 
-![Top.jpg]({{site.baseurl}}/_posts/Top.jpg)
-
+![Top.jpg]({{site.baseurl}}/assets/images/2114/Top.jpg)
 
 8.  Download and install the Arduino IDE software from arduino.cc
 
