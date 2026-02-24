@@ -11,7 +11,7 @@ date: {}
 
 1. Parts included - These are the parts that are included in the kit.   You will also need a soldering iron, an Arduino Uno, wire cutters, and a PC with a USB port. 
 
-![contents.jpg]({{site.baseurl}}/assets/contents.jpg)
+![Contents]({{site.baseurl}}/assets/images/contents.jpg)
 
 
 
