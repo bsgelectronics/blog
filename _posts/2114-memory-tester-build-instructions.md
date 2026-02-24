@@ -2,7 +2,6 @@
 ### How it works
 
 
-
 **Assembly Instructions**
 
 1. Parts included - These are the parts that are included in the kit.   You will also need a soldering iron, an Arduino Uno, wire cutters, and a PC with a USB port. 
@@ -57,7 +56,6 @@ https://github.com/cpyne/2114MemTest
 13.  Select "Sketch" > "Upload" to load the file to your Arduino.  *Note - If you encounter an upload error, retry with the shield disconnected from your Arduino.   
 
 
-
 **Using the 2114 Tester**
 
 1. Plug the Arduino in with a 9v power supply or USB. 
@@ -66,8 +64,8 @@ https://github.com/cpyne/2114MemTest
 
 2. Press **Begin Test** to run test cycle.   
 
-3. Press and hold End Test to stop
+3. Press and hold End Test to stop.
 
 4. Green = Good, Red = Bad
 
-5.  Testing will run in a loop and red will turn on, and remain on, if an error is encountered.   This can be used for longer testing to rule out intermitted failures.  
+5.  Testing will run in a loop and red will turn on, and remain on, if an error is encountered.   This can be used for longer testing to rule out intermitted failures.
