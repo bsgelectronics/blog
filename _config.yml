@@ -2,4 +2,9 @@ title: BSG Electronics Blog
 description: Technical articles and build notes
 theme: minima
 permalink: /:title/
-baseurl: /blog
+
+# Required for custom domain
+url: https://blog.bsgelectronics.com
+
+# MUST be empty or removed for custom domain
+# baseurl: /blog
