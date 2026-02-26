@@ -20,7 +20,11 @@
 
 1. Parts included - These are the parts that are included in the kit.   You will also need a soldering iron, an Arduino Uno, wire cutters, and a PC with a USB port. 
 
-![Parts](https://github.com/bsgelectronics/blog/blob/main/assets/images/4116/parts.jpg)
+![Parts]({{site.baseurl}}/assets/images/4116/parts.jpg)
+
+<img src="{{ site.baseurl }}/assets/images/4116/parts.jpg"
+     alt="Parts"
+     class="img-small">
 
 2. Assemble upper components.   Insert components based on item IDs on inventory sheet.   Make sure LEDs, capacitors, and diodes are inserted with the correct orientation matching pictures below
 
@@ -81,4 +85,3 @@ Verify you have the correct voltages in these locations.   Incorrect or missing 
 
 
 Schematic
-
