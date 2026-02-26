@@ -24,18 +24,18 @@
 
 2. Assemble upper components.   Insert components based on item IDs on inventory sheet.   Make sure LEDs, capacitors, and diodes are inserted with the correct orientation matching pictures below
 
-![caps]({{site.baseurl}}/images/4116/caps.jpg)
+![caps]({{site.baseurl}}/assets/images/4116/caps.jpg)
 
-![diodes]({{site.baseurl}}/images/4116/diodes.jpg)
+![diodes]({{site.baseurl}}/assets/images/4116/diodes.jpg)
 
-![4116]({{site.baseurl}}/images/4116/caps.jpg)
+![4116]({{site.baseurl}}/assets/images/4116/caps.jpg)
 
 
 3. Flip the board over and solder in the components.   Ensure that extra solder does not connect any pins.   Trim the extra wire length off the led legs. 
 
 4. Clip to size and insert riser pins from the bottom.  Solder in from the top
 
-![bottom]({{site.baseurl}}/images/4116/bottom.jpg)
+![bottom]({{site.baseurl}}/assets/images/4116/bottom.jpg)
 
 5.  Install the completed shield on your Arduino Uno
 
@@ -72,9 +72,9 @@ https://github.com/cpyne/4116MemTest
 
 Verify you have the correct voltages in these locations.   Incorrect or missing voltages can be caused by incorrect assembly.  Verify you don't have solder bridges, resistors in the wrong locations, chips installed backwards.
 
-![voltage]({{site.baseurl}}/images/4116/voltage.jpg)
+![voltage]({{site.baseurl}}/assets/images/4116/voltage.jpg)
 
 
 **Schematic**
 
-![schematic]({{site.baseurl}}/images/4116/4116schema.pdf)
+![schematic]({{site.baseurl}}/assets/images/4116/4116schema.pdf)
