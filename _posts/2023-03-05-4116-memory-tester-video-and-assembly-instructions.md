@@ -10,14 +10,17 @@
   allowfullscreen>
 </iframe>
 
-Schematic 4116
+**Schematic and BOM Download**
 
-Assembly Instructions
+[BOM 4116](https://github.com/bsgelectronics/blog/blob/main/assets/images/4116/4116%20BOM.xlsx)
+
+[Schematic 4116](https://github.com/bsgelectronics/blog/blob/main/assets/images/4116/4116schema.pdf)
+
+**Assembly Instructions**
 
 1. Parts included - These are the parts that are included in the kit.   You will also need a soldering iron, an Arduino Uno, wire cutters, and a PC with a USB port. 
 
-
-
+![](https://github.com/bsgelectronics/blog/blob/main/assets/images/4116/parts.jpg)
 
 
 2. Assemble upper components.   Insert components based on item IDs on inventory sheet.   Make sure LEDs, capacitors, and diodes are inserted with the correct orientation matching pictures below
