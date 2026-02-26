@@ -77,4 +77,4 @@ Verify you have the correct voltages in these locations.   Incorrect or missing 
 
 **Schematic**
 
-![schematic]({{site.baseurl}}/assets/images/4116/4116schema.pdf)
+![schematic]({{site.baseurl}}/assets/images/4116/schematic.jpg)
