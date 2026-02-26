@@ -31,18 +31,11 @@
 ![4116]({{site.baseurl}}/images/4116/caps.jpg)
 
 
-
-
-
-
-
-
-
 3. Flip the board over and solder in the components.   Ensure that extra solder does not connect any pins.   Trim the extra wire length off the led legs. 
 
 4. Clip to size and insert riser pins from the bottom.  Solder in from the top
 
-
+![bottom]({{site.baseurl}}/images/4116/bottom.jpg)
 
 5.  Install the completed shield on your Arduino Uno
 
@@ -63,8 +56,7 @@ https://github.com/cpyne/4116MemTest
 11.  Select "Sketch" > "Upload" to load the file to your Arduino
 
 
-
-Using the 4116 Tester
+**Using the 4116 Tester**
 
 1. Insert the 4116 chip to be tested into the ZIF socket.   IMPORTANT - Ensure the chip is inserted with the notch facing up towards the LEDs.   Inserting backwards can damage the chip!
 
@@ -76,12 +68,13 @@ Using the 4116 Tester
 
 5. Press button to run additional tests.   
 
-Troubleshooting
+**Troubleshooting**
 
 Verify you have the correct voltages in these locations.   Incorrect or missing voltages can be caused by incorrect assembly.  Verify you don't have solder bridges, resistors in the wrong locations, chips installed backwards.
 
+![voltage]({{site.baseurl}}/images/4116/voltage.jpg)
 
 
+**Schematic**
 
-
-Schematic
+![schematic]({{site.baseurl}}/images/4116/4116schema.pdf)
