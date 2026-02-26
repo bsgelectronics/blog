@@ -22,13 +22,13 @@
 
 ![Parts]({{site.baseurl}}/assets/images/4116/parts.jpg)
 
-<img src="{{ site.baseurl }}/assets/images/4116/parts.jpg"
-     alt="Parts"
-     class="img-small">
-
 2. Assemble upper components.   Insert components based on item IDs on inventory sheet.   Make sure LEDs, capacitors, and diodes are inserted with the correct orientation matching pictures below
 
+![caps]({{site.baseurl}}/images/4116/caps.jpg)
 
+![diodes]({{site.baseurl}}/images/4116/diodes.jpg)
+
+![4116]({{site.baseurl}}/images/4116/caps.jpg)
 
 
 
