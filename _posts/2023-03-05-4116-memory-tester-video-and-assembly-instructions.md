@@ -1,6 +1,6 @@
-## 4116 Memory Tester Video and Assembly Instructions
+# 4116 Memory Tester Video and Assembly Instructions
 
-**How it works**
+### How it works
 
 <iframe width="560" height="315"
   src="https://www.youtube.com/embed/WWA9xFqeUac"
@@ -10,13 +10,13 @@
   allowfullscreen>
 </iframe>
 
-**Schematic and BOM Download**
+### Schematic and BOM Download
 
 [BOM 4116](https://raw.githubusercontent.com/bsgelectronics/blog/main/assets/images/82s123/PromProg2BOM.xlsx)
 
 [Schematic 4116](https://raw.githubusercontent.com/bsgelectronics/blog/main/assets/images/4116/4116schema.pdf)
 
-**Assembly Instructions**
+### Assembly Instructions
 
 1. Parts included - These are the parts that are included in the kit.   You will also need a soldering iron, an Arduino Uno, wire cutters, and a PC with a USB port. 
 
@@ -56,7 +56,7 @@ https://github.com/cpyne/4116MemTest
 11.  Select "Sketch" > "Upload" to load the file to your Arduino
 
 
-**Using the 4116 Tester**
+### Using the 4116 Tester
 
 1. Insert the 4116 chip to be tested into the ZIF socket.   IMPORTANT - Ensure the chip is inserted with the notch facing up towards the LEDs.   Inserting backwards can damage the chip!
 
@@ -68,13 +68,13 @@ https://github.com/cpyne/4116MemTest
 
 5. Press button to run additional tests.   
 
-**Troubleshooting**
+### Troubleshooting
 
 Verify you have the correct voltages in these locations.   Incorrect or missing voltages can be caused by incorrect assembly.  Verify you don't have solder bridges, resistors in the wrong locations, chips installed backwards.
 
 ![voltage]({{site.baseurl}}/assets/images/4116/voltage.jpg)
 
 
-**Schematic**
+### Schematic
 
 ![schematic]({{site.baseurl}}/assets/images/4116/schematic.jpg)
