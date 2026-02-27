@@ -29,7 +29,7 @@ The 82s123, 82s23, 74s288 and 74s188 are PROM chips that were commonly used in o
 **Parts Required** - The parts for this project can be purchased from Digikey, Ebay.   Electronic hobbyists will likely have some of these parts already available in your parts collection. 
 
 ##  Downloads
-![BOM]({{ site.baseurl }}/assets/images/82s123/PromProg2BOM.xlsx)
+[BOM]({{ site.baseurl }}/assets/images/82s123/PromProg2BOM.xlsx)
 
 [Digikey List](https://www.digikey.com/en/mylists/list/DG3M38DOSF)
 
