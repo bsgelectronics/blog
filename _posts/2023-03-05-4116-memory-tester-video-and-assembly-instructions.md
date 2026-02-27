@@ -14,7 +14,7 @@
 
 [BOM 4116](https://raw.githubusercontent.com/bsgelectronics/blog/main/assets/images/82s123/PromProg2BOM.xlsx)
 
-[Schematic 4116](https://raw.githubusercontent.com/bsgelectronics/blog/blob/main/assets/images/4116/4116schema.pdf)
+[Schematic 4116](https://raw.githubusercontent.com/bsgelectronics/blog/main/assets/images/4116/4116schema.pdf)
 
 **Assembly Instructions**
 
