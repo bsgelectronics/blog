@@ -49,7 +49,7 @@ The 82s123, 82s23, 74s288 and 74s188 are PROM chips that were commonly used in o
 [https://github.com/bsgelectronics/blog/blob/main/assets/images/82s123/82S23-Signetics.pdf](https://github.com/bsgelectronics/blog/blob/main/assets/images/82s123/82S23-Signetics.pdf)
 
 
-**Pervious Vesions** - All boards being sold today are version 1.5 which is not known to have any errors.   You will receive a version 1.5 board even if some of the videos and pics still show older version numbers.  A small number of older version boards were shipped in 2024.  If you have an older version and are experiencing problems, please contact me for a replacement or fix instructions. 
+**Pervious Vesions** - All boards sold since mid-2024 are version 1.5 which is not known to have any errors.   You will receive a version 1.5 board even if some of the videos and pics still show older version numbers.  A small number of older version boards were shipped in 2024.  If you have an older version and are experiencing problems, please contact me for a replacement or fix instructions. 
 
 
 
