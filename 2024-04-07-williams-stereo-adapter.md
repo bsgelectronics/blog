@@ -64,7 +64,7 @@ https://www.ebay.com/itm/192562877297
 
 ### Stereo ROMs
 
-[ROMs]({{ site.baseurl }}/assets/images/williams/Stereo Roms.zip)
+[ROMs]({{ site.baseurl }}/assets/images/williams/StereoRoms.zip)
 
 ### Assembly tips
 
