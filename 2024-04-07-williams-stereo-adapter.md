@@ -34,7 +34,7 @@ I added Stereo to my Stargate and it sounds great!  Unfortunately, it is difficu
 
 4.  An interconnect PCB.   This PCB avoids custom wiring or hacking of the stock harness. The stereo board taps all its connections right from the main harness and provides quick screw terminals for easy speaker hookup and a built in volume pot. 
 
-https://bsgelectronics.com/williams-stereo-interconnect-board
+[https://bsgelectronics.com/williams-stereo-interconnect-board](https://bsgelectronics.com/williams-stereo-interconnect-board)
 
 ![]({{site.baseurl}}/assets/images/williams/board.jpg)
 
@@ -64,7 +64,7 @@ https://www.ebay.com/itm/192562877297
 
 ### Stereo ROMs
 
-Download all 3 here /media/381/file/Stereo Roms.zip
+[ROMs]({{ site.baseurl }}/assets/images/williams/Stereo Roms.zip)
 
 ### Assembly tips
 
