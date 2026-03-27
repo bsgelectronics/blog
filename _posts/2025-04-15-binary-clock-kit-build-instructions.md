@@ -20,7 +20,9 @@ Most of the components that are installed in this clock can be installed in eith
 
 3. LEDs - Ensure LEDs are installed with the negative side connected to the flat side of the silk screen on the board.   The positive side of the LED, (longer leg), should be inserted in the hold opposite from the flat side
 
-4. +5v and GND Test Points - Voltages can be tested from the bottom of R21 and the time change button. 
+4. +5v and GND Test Points - Voltages can be tested from the bottom of R21 and the time change button.
+   
+5. Legs may require a drop of glue if they feel loose.  
 
 ![]({{site.baseurl}}/assets/images/Binary%20Clock/P_20250327_205753.jpg)
 
@@ -36,7 +38,8 @@ Most of the components that are installed in this clock can be installed in eith
 
 ![]({{site.baseurl}}/assets/images/Binary%20Clock/sch2.png)
 
-Operation - Try to avoid touching the solder points on the back side of the clock board while it is plugged in and running.  Touching the solder pins on the back may sometimes cause the clock display to turn off.  The clock will still be keeping time, just the LEDs will be off.  If this happens, disconnect the power plug and plug it back in to restart the LEDs.   
+## Operation
+Try to avoid touching the solder points on the back side of the clock board while it is plugged in and running.  Touching the solder pins on the back may sometimes cause the clock display to turn off.  The clock will still be keeping time, just the LEDs will be off.  If this happens, disconnect the power plug and plug it back in to restart the LEDs.   
 
 ## Buy Kit Here
 
