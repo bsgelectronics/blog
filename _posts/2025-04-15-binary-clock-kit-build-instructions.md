@@ -52,4 +52,3 @@ If you notice a problem where the clock appears to be running too fast or skips 
 
 ![]({{site.baseurl}}/assets/images/Binary%20Clock/caps2.jpg)
 
-![]({{site.baseurl}}/assets/images/Binary%20Clock/caps3.jpg)
