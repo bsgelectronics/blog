@@ -47,4 +47,9 @@ https://bsgelectronics.com/binary-clock-kit
 
 https://www.ebay.com/itm/167426689498
 
+## Troubleshooting
+If you notice a problem where the clock appears to be running too fast or skips numbers, this may be a problem with the 32.768 kHz crystal starting incorrectly.   Usually this can be fixed by disconnecting the power and the battery and allowing the clock to sit for a few minutes.   If this problem continues, you can fix it by adding 2x 22pF capacitors between the crystal legs and ground.  
 
+![]({{site.baseurl}}/assets/images/Binary%20Clock/caps2.jpg)
+
+![]({{site.baseurl}}/assets/images/Binary%20Clock/caps3.jpg)
