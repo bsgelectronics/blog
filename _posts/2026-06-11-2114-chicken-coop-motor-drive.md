@@ -1,3 +1,8 @@
+---
+published: false       # ← add this line
+---
+
+
 Motor reversing door controller board for use in chicken coops
 
 Introduction
