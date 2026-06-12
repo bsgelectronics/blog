@@ -45,7 +45,8 @@ Photo Electric safety cutoff - Stops motion if a chicken is blocking the door.
 ## Assembly
 Assembly requires soldering.  All solder parts are included. 
 
-## Buy the kit
+## Buy the kit at bsgelectronics or ebay
+https://bsgelectronics.com/chicken-coop-door-controller-motor-reverser-led-status-h-bridge-you-build/
 https://www.ebay.com/itm/168453167090
 
 ## Parts Not Included
@@ -56,13 +57,13 @@ Available on Amazon.  Other timers might work, but get this one to ensure the co
 
 https://www.amazon.com/dp/B0D59B1DD1?th=1
 
-# External 12v LEDs - Use to display door, power, and beam status.
+# External 12v LEDs 
+Use to display door, power, and beam status.
 https://www.ebay.com/itm/406938606988
 https://www.ebay.com/itm/196760274076
 
 # Photo Electric Emitter and Sensor
 I suggest one "E3F-5L" emitter and one "E3F-5DP2" sensor.  Sensor is PNP NC. Available on EBay
-
 
 # Power Supply
 This board is designed to run on 12v DC.  Be sure to use a power supply that can deliver enough amerage to power your liner actuator(s).   I am using this 5A supply from Amazon
