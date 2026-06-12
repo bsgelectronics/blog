@@ -1,4 +1,4 @@
-Motor reversing door controller board for use in chicken coops
+###Motor reversing door controller board for use in chicken coops
 
 ##Introduction
 
