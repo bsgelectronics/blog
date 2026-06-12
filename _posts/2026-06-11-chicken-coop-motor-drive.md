@@ -44,4 +44,7 @@ https://www.amazon.com/dp/B0D7GGGM6Q
 ##Assembly
 Assembly requires soldering.  All solder parts are included. 
 
+## Buy the kit
+https://www.ebay.com/itm/168453167090
+
 
