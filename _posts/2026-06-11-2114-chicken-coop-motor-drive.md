@@ -11,7 +11,7 @@ I have had chickens for the past 10 years using multiple iteations of contollers
 ##Videos
 
 <iframe width="560" height="315"
-  src="https://youtu.be/cAsn8lur-BM"
+  src="https://www.youtube.com/embed/cAsn8lur-BM"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -19,7 +19,7 @@ I have had chickens for the past 10 years using multiple iteations of contollers
 </iframe>
 
 <iframe width="560" height="315"
-  src="https://youtu.be/w9KVft6hweE"
+  src="https://www.youtube.com/embed/w9KVft6hweE"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
