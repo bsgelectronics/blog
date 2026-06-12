@@ -4,15 +4,29 @@ published: false       # ← add this line
 
 Motor reversing door controller board for use in chicken coops
 
-Introduction
+##Introduction
 
 I have had chickens for the past 10 years using multiple iteations of contollers to open/close a door via a linear actuator.  This board was created to get around the difficulties I encoutered.  Detachable timer - Read inside with your glasses, Manual Override - Open/Close the door without changing the timer, External status LED hookup, Multiple linear actuator outputs, infra red safety cutoff beam inputs with led status.
 
-Video
+##Videos
 
-https://youtu.be/cAsn8lur-BM
+<iframe width="560" height="315"
+  src="https://youtu.be/cAsn8lur-BM"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
 
-https://youtu.be/w9KVft6hweE
+<iframe width="560" height="315"
+  src="https://youtu.be/w9KVft6hweE"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
+
 
 Operation
 
