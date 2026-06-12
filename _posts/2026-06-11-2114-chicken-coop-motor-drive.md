@@ -28,7 +28,7 @@ I have had chickens for the past 10 years using multiple iteations of contollers
 
 
 
-Operation
+##Operation
 
 Parts you need - I am selling this board as a solder kit.  In order to keep the cost low, these items you'll need to buy yourself.
 
@@ -45,6 +45,7 @@ Power Supply - This board is designed to run on 12v DC.  Be sure to use a power 
 
 https://www.amazon.com/dp/B0D7GGGM6Q
 
-Assembly - Assembly requires soldering.  All solder parts are included. 
+##Assembly
+Assembly requires soldering.  All solder parts are included. 
 
 
