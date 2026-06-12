@@ -70,6 +70,10 @@ This board is designed to run on 12v DC.  Be sure to use a power supply that can
 
 https://www.amazon.com/dp/B0D7GGGM6Q
 
+# Linear Actuator
+The PCB can control 1 or 2 actuators.  I used these ones from ebay
+https://www.ebay.com/itm/334520303479
+
 ## Build Instructions
 
 Insert and solder components into the PCB matching the labels on the PCB front silkscreen.  There are a few items to be aware of.
