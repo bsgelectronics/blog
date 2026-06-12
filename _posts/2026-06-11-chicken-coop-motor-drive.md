@@ -4,18 +4,6 @@
 
 I have had chickens for the past 10 years and have had multiple iteations of contollers to open/close a door via a linear actuator.  The circuit requiered is pretty simple, but wiring quickly becomes messy as extra features and functions are added.  This board was created to simplify all the messy wiring and functions of my custom coop controller.  
 
-![]({{site.baseurl}}/assets/images/chicken/done.jpg)
-
-## Key Features
-
-Detachable timer - Bring the timer inside and program it indoors in a warm house, in good light, with your glasses
-![]({{site.baseurl}}/assets/images/chicken/detach.jpg)
-Manual Override - Open/Close the door without changing the timer
-![]({{site.baseurl}}/assets/images/chicken/switches.jpg)
-External status LED hookups - Instantly see door status at night by colored leds
-Multiple linear actuator outputs
-Photor Electric safety cutoff - Stops motion if a chicken is blocking the door.
-
 ## Videos
 
 <iframe width="560" height="315"
@@ -33,6 +21,22 @@ Photor Electric safety cutoff - Stops motion if a chicken is blocking the door.
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
+
+![]({{site.baseurl}}/assets/images/chicken/full.jpg)
+
+## Key Features
+
+Detachable timer - Bring the timer inside and program it indoors in a warm house, in good light, with your glasses
+
+![]({{site.baseurl}}/assets/images/chicken/detach.jpg)
+
+Manual Override - Open/Close the door without changing the timer
+
+![]({{site.baseurl}}/assets/images/chicken/switches.jpg)
+
+External status LED hookups - Instantly see door status at night by colored leds
+Multiple linear actuator outputs
+Photor Electric safety cutoff - Stops motion if a chicken is blocking the door.
 
 ##Assembly
 Assembly requires soldering.  All solder parts are included. 
