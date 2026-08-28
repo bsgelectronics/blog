@@ -4,6 +4,8 @@ title: "A Manual Programmer for 82s129, 82s126, 74s287, and 74s387 PROM Chips"
 date: 2025-05-31
 ---
 
+### Program vintage PROM chips without an expensive programmer
+
 ## Introduction
 
 The 82s129, 82s126, 74s287, and 74s387 are PROM chips that were commonly used in older arcade games, vintage PCs, and equipment from the 1970s and 80s. Many modern programmers don't support these chips, often making vintage electronics projects difficult to complete. This manual programmer can be used to read and write these chips.
