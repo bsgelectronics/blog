@@ -1,10 +1,17 @@
+---
+layout: post
+title: "PROM Substitution Reference"
+date: 2022-04-16
+---
+
 ## PROM Substitution Reference
 
 
 V1.6 Jan 13,1999 (Additions by - Mike - Last Update Dec. 6, 2016
 
-Fujitsu
--------
+### Fujitsu
+
+```
                  SIG     AMD    MMI      NAT    TI      HAR     FAR
 7051          == 82S123
 7052          == 82S129
@@ -34,10 +41,11 @@ Fujitsu
 7142  4kx8 TS == 82S321
 7144  8kx8 TS == 82S641
 7152  4kx4 TS == 82S195  27S41
+```
 
-Harris
-------
+### Harris
 
+```
 7602  == 82s23
 7603  == 82s123
 7608  == 82x2708
@@ -59,23 +67,26 @@ Harris
 7686  == 82s186
 7687  == 82s187
 76160 == 82x190
+```
 
-Hitachi
--------
+### Hitachi
 
+```
 HN25089 == 82s181
 NM25169 == 82s191
+```
 
-Intersil
---------
+### Intersil
 
+```
 5603  == 82s126
 5610  == 82s123
 5623  == 82s129
+```
 
-Bipolar PROMs
--------------
+### Bipolar PROMs
 
+```
 32*8
    +------+
 O1 |1   16| Vcc
@@ -425,11 +436,11 @@ GND|12  13| O4
 TS 82S641 (55ns) -       -        76641-5  -        27S49    -         93Z565
    82S641A(45ns) -       -        76641A-5 -        27S49A   -         93Z565A
    82S641B(35ns) -       -        -        -        -        -         -
+```
 
+### 24 Pin EPROMs 1k and 2k
 
-24 Pin EPROMs 1k and 2k
------------------------
-
+```
 2708 (1k)           2716            TMS2716      TMS2732    9216 (Atari)
                     2516
    +------+         +------+        +------+       -+       +------+
@@ -510,4 +521,5 @@ Sprint             Atari          82S131   4P 4R 6J 6K
                                   6353 (optional stuff for pgm)
 
 Tornado Baseball   Midway         9216     
+```
 
