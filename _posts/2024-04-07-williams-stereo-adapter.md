@@ -6,6 +6,8 @@ date: 2024-04-07
 
 ![Completed Williams stereo adapter install]({{ site.baseurl }}/assets/images/williams/complete.jpg)
 
+### Add stereo sound to your Stargate, Joust, or Sinistar
+
 ## What Is It?
 
 One of the only early-80s Williams games that featured stereo sound was Sinistar — but only in the cockpit version. This project shows how you can add that same original stereo sound to an upright Sinistar, as well as add stereo to Joust and Stargate.
