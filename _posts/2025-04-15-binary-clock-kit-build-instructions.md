@@ -5,6 +5,9 @@ date: 2025-04-15
 ---
 
 ### Tell time in Binary
+![The Clock]({{ site.baseurl }}/assets/images/Binary%20Clock/P_20250327_205747.jpg)
+
+
 
 ## Overview and Setup Instructions
 
