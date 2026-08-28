@@ -1,80 +1,77 @@
-# 4116 Memory Tester Video and Assembly Instructions
+---
+layout: post
+title: "4116 Memory Tester Video And Assembly Instructions"
+date: 2023-03-05
+canonical: https://blog.bsgelectronics.com/4116-memory-tester-video-and-assembly-instructions/
+meta-description: "4116 Memory Tester Video and Assembly Instructions"
+---
 
-### How it works
+## How it works
 
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/WWA9xFqeUac"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WWA9xFqeUac" title="4116 Memory Tester overview" frameborder="0" allowfullscreen></iframe>
 
-### Schematic and BOM Download
+## Schematic and BOM Download
 
-[BOM 4116](https://raw.githubusercontent.com/bsgelectronics/blog/main/assets/images/82s123/PromProg2BOM.xlsx)
+- [Download BOM (XLSX)](https://raw.githubusercontent.com/bsgelectronics/blog/main/assets/images/82s123/PromProg2BOM.xlsx)
+- [Download Schematic (PDF)](https://raw.githubusercontent.com/bsgelectronics/blog/main/assets/images/4116/4116schema.pdf)
 
-[Schematic 4116](https://raw.githubusercontent.com/bsgelectronics/blog/main/assets/images/4116/4116schema.pdf)
+## Assembly Instructions
 
-### Assembly Instructions
+You will also need a soldering iron, an Arduino Uno, wire cutters, and a PC with a USB port.
 
-1. Parts included - These are the parts that are included in the kit.   You will also need a soldering iron, an Arduino Uno, wire cutters, and a PC with a USB port. 
+1. **Identify the included parts.** These are the parts included in the kit.
 
-![Parts]({{site.baseurl}}/assets/images/4116/parts.jpg)
+   ![Kit parts laid out before assembly](https://blog.bsgelectronics.com/assets/images/4116/parts.jpg)
 
-2. Assemble upper components.   Insert components based on item IDs on inventory sheet.   Make sure LEDs, capacitors, and diodes are inserted with the correct orientation matching pictures below
+2. **Assemble the upper components.** Insert components based on the item IDs on the inventory sheet. Make sure LEDs, capacitors, and diodes are inserted with the correct orientation, matching the pictures below.
 
-![caps]({{site.baseurl}}/assets/images/4116/caps.jpg)
+   ![Capacitor orientation reference](https://blog.bsgelectronics.com/assets/images/4116/caps.jpg)
 
-![diodes]({{site.baseurl}}/assets/images/4116/diodes.jpg)
+   ![Diode orientation reference](https://blog.bsgelectronics.com/assets/images/4116/diodes.jpg)
 
-![4116]({{site.baseurl}}/assets/images/4116/caps.jpg)
+   <!-- NOTE: this third image reused caps.jpg in the original post — confirm whether a different photo (e.g. LED orientation) was intended here -->
+   ![4116 component orientation reference](https://blog.bsgelectronics.com/assets/images/4116/caps.jpg)
 
+3. **Flip the board over and solder in the components.** Ensure that extra solder does not connect any pins. Trim the extra wire length off the LED legs.
 
-3. Flip the board over and solder in the components.   Ensure that extra solder does not connect any pins.   Trim the extra wire length off the led legs. 
+4. **Clip and insert the riser pins.** Clip to size and insert the riser pins from the bottom, then solder in from the top.
 
-4. Clip to size and insert riser pins from the bottom.  Solder in from the top
+   ![Riser pins soldered from the bottom of the board](https://blog.bsgelectronics.com/assets/images/4116/bottom.jpg)
 
-![bottom]({{site.baseurl}}/assets/images/4116/bottom.jpg)
+5. **Install the completed shield on your Arduino Uno.**
 
-5.  Install the completed shield on your Arduino Uno
+6. **Install the Arduino IDE.** Download and install the [Arduino IDE software](https://www.arduino.cc/en/software).
 
-6.  Download and install the Arduino IDE software from arduino.cc
+7. **Download the 4116 memory test source code.** Go to the [4116MemTest repository](https://github.com/cpyne/4116MemTest), select **Code > Download ZIP**, then extract the ZIP file and save `4116.ino`.
 
-https://www.arduino.cc/en/software
+8. **Connect your Arduino Uno to your computer via USB.**
 
-7. Download the 4116 memory test source code.  Select "Code" > "Download Zip".   Extract zip file and save 4116.ino
+9. **Configure the Arduino IDE.** Launch the IDE and make sure **Arduino Uno** and your correct COM port are both selected under the **Tools** menu.
 
-https://github.com/cpyne/4116MemTest
+10. **Open the sketch.** Select **File > Open**, then select the `4116.ino` file you downloaded in step 7.
 
-8. Connect your Arduino Uno to your computer via USB.  
+11. **Upload the sketch.** Select **Sketch > Upload** to load the code onto your Arduino.
 
-9. Launch the Arduino IDE software.  Make sure "Arduino Uno" and your appropriate COM port are both selected under the Tools menu.   
+## Using the 4116 Tester
 
-10. Select File > Open and then select the 4116.ino file that you downloaded in step 7
+1. Insert the 4116 chip to be tested into the ZIF socket.
 
-11.  Select "Sketch" > "Upload" to load the file to your Arduino
+   > **Important:** Ensure the chip is inserted with the notch facing up, toward the LEDs. Inserting it backwards can damage the chip.
 
+2. Plug the Arduino in with a 9V power supply or USB. Testing begins automatically when power is connected.
 
-### Using the 4116 Tester
+3. Testing runs for about 10 seconds and displays: **solid green = good**, **solid red = bad**.
 
-1. Insert the 4116 chip to be tested into the ZIF socket.   IMPORTANT - Ensure the chip is inserted with the notch facing up towards the LEDs.   Inserting backwards can damage the chip!
+4. It's possible to insert chips with the tester already plugged in, but make sure pins aren't crossed and the chip has the correct orientation.
 
-2. Plug the Arduino in with a 9v power supply or USB.   Testing will begin when power is connected.  
+5. Press the button to run additional tests.
 
-3. Testing will run for ~10 seconds and will display solid Green = Good, Red = Bad
+## Troubleshooting
 
-4. It is possible to insert chips with the tester plugged in, but make sure pins are not crossed and chip has proper orientation.  
+Verify you have the correct voltages at the locations shown below. Incorrect or missing voltages can be caused by improper assembly — check for solder bridges, resistors in the wrong locations, or chips installed backwards.
 
-5. Press button to run additional tests.   
+![Voltage test points](https://blog.bsgelectronics.com/assets/images/4116/voltage.jpg)
 
-### Troubleshooting
+## Schematic
 
-Verify you have the correct voltages in these locations.   Incorrect or missing voltages can be caused by incorrect assembly.  Verify you don't have solder bridges, resistors in the wrong locations, chips installed backwards.
-
-![voltage]({{site.baseurl}}/assets/images/4116/voltage.jpg)
-
-
-### Schematic
-
-![schematic]({{site.baseurl}}/assets/images/4116/schematic.jpg)
+![Full schematic diagram](https://blog.bsgelectronics.com/assets/images/4116/schematic.jpg)
