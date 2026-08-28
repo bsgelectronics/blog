@@ -1,98 +1,71 @@
-#  Williams Stereo Adapter for Stargate Joust Sinistar
-![]({{site.baseurl}}/assets/images/williams/complete.jpg)
-### What is it?
-One of the only early 80s Williams games that featured stereo sound was Sinistar, but this was only in the cockpit version.  This project shows how you can add this same original stereo to a Sinistar (upright) as well as add stereo to Joust and Stargate. 
+---
+layout: post
+title: "Williams Stereo Adapter for Stargate, Joust, and Sinistar"
+date: 2024-04-07
+---
 
-### Videos
-I added Stereo to my Stargate and it sounds great!  Unfortunately, it is difficult to hear the stereo through a cell phone video recordings.  The sound is MUCH BETTER in person.
+![Completed Williams stereo adapter install]({{ site.baseurl }}/assets/images/williams/complete.jpg)
 
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/sVfttbVLo6k"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
+## What Is It?
 
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/h_hqxc9s1T0"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
+One of the only early-80s Williams games that featured stereo sound was Sinistar — but only in the cockpit version. This project shows how you can add that same original stereo sound to an upright Sinistar, as well as add stereo to Joust and Stargate.
 
-![]({{site.baseurl}}/assets/images/williams/machine2.jpg)
+## Videos
 
-### What you'll need
+I added stereo to my Stargate and it sounds great! Unfortunately, it's difficult to hear the stereo in a cell phone video recording — it sounds much better in person.
 
-1. A second working Williams Sound Board - (1C-2001-146-6)  - Look for one on ebay
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sVfttbVLo6k" title="Williams stereo adapter demo, Stargate" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-2. A 2532 EPROM programmed with either the Sinistar, Joust, or Stargate special stereo rom. (keep reading for more info)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h_hqxc9s1T0" title="Williams stereo adapter demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-3. Soldering iron and experience with soldering.
+![Stereo-modified Williams cabinet]({{ site.baseurl }}/assets/images/williams/machine2.jpg)
 
-4.  An interconnect PCB.   This PCB avoids custom wiring or hacking of the stock harness. The stereo board taps all its connections right from the main harness and provides quick screw terminals for easy speaker hookup and a built in volume pot. 
+## What You'll Need
 
-[https://bsgelectronics.com/williams-stereo-interconnect-board](https://bsgelectronics.com/williams-stereo-interconnect-board)
+1. **A second working Williams sound board** (1C-2001-146-6) — look for one on eBay.
 
-![]({{site.baseurl}}/assets/images/williams/board.jpg)
+2. **A 2532 EPROM** programmed with either the Sinistar, Joust, or Stargate special stereo ROM (keep reading for more info).
 
-5.  An 8 ohm speaker or similar. You can place the speaker on a shelf, on top of the cabinet, or do a more permanent install inside the cabinet if you prefer.    I'm used a small Bose bookshelf speaker with my Stargate. 
+3. **A soldering iron** and experience with soldering.
 
-6. Speaker wire. 
+4. **An interconnect PCB.** This PCB avoids custom wiring or hacking of the stock harness — the stereo board taps all its connections right from the main harness and provides quick screw terminals for easy speaker hookup, plus a built-in volume pot. Available from [BSG Electronics](https://bsgelectronics.com/williams-stereo-interconnect-board).
 
-7. An inline click wheel switch (optional) - Lets you easily toggle stereo on/off. 
+   ![Williams stereo interconnect board]({{ site.baseurl }}/assets/images/williams/board.jpg)
 
-![]({{site.baseurl}}/assets/images/williams/th.jpg)
+5. **An 8-ohm speaker or similar.** You can place the speaker on a shelf, on top of the cabinet, or do a more permanent install inside the cabinet if you prefer — I used a small Bose bookshelf speaker with my Stargate.
 
-8. Molex and Speaker parts from Digikey
+6. **Speaker wire.**
 
-https://www.digikey.com/en/mylists/list/NV6H9PY4BS
+7. **An inline click-wheel switch (optional)** — lets you easily toggle stereo on/off.
 
-(Note - These cheaper 4mm speaker posts available on ebay will also work)
+   ![Inline click-wheel volume switch]({{ site.baseurl }}/assets/images/williams/th.jpg)
 
-https://www.ebay.com/itm/384940453644
+8. **Molex and speaker parts** from [Digikey](https://www.digikey.com/en/mylists/list/NV6H9PY4BS). (Note: these [cheaper 4mm speaker posts on eBay](https://www.ebay.com/itm/384940453644) will also work.)
 
-9. An A50K potentiometer 
+9. **[An A50K potentiometer](https://www.ebay.com/itm/304482856805)**
 
-https://www.ebay.com/itm/304482856805
+10. **[8x 1/4" hex x 1-1/2" aluminum standoffs, 8-32 thread, male/female](https://www.ebay.com/itm/192562877297)**
 
-10. 8x 1/4" Hex x 1 1/2" Aluminum Standoffs 8-32 Thread Male/Female 
+## Stereo ROMs
 
-https://www.ebay.com/itm/192562877297
+[Download the stereo ROMs (ZIP)]({{ site.baseurl }}/assets/images/williams/StereoRoms.zip)
 
-### Stereo ROMs
+## Assembly Tips
 
-[ROMs]({{ site.baseurl }}/assets/images/williams/StereoRoms.zip)
+1. **Test the stereo board before installing the ROM or changing any jumpers.** The Stargate stereo ROM does not play any sounds when you press the diagnostics button — I haven't confirmed yet whether Joust or Sinistar stereo makes diagnostic sounds.
 
-### Assembly tips
+2. **Jumper the stereo board for a 2532 EPROM.** Connect the W1, W3, W4, W5, W7, W10, and W15 jumpers; remove all other jumpers. See [jestersattic.com's Williams sound board reference](https://www.jestersattic.com/wms_snd.php) for more detail.
 
-1. Make sure the stereo board is working BEFORE you install the rom or change any jumpers. The Stargate stereo rom does NOT play any sounds when you press the diagnostics button.  I have not confirmed yet if Joust or Sinistar stereo makes diagnostic sounds.  
+   ![Stereo board jumper configuration]({{ site.baseurl }}/assets/images/williams/jumpers.jpg)
 
-2. Jumper the stereo board per this article for a 2532 eporm.  Connect W1, W3, W4, W5, W7, W10, and W15 jumpers.  Other jumpers should be removed.
+3. **Note:** even though Stargate uses a 2716 for its main board, a 2532 is still needed for the stereo board.
 
-https://www.jestersattic.com/wms_snd.php
+4. **Remove the screws from your existing sound board** and replace them with the hex standoffs. Reuse the existing screws to mount the stereo board to the standoffs.
 
-![]({{site.baseurl}}/assets/images/williams/jumpers.jpg)
+5. **Need a 2532 EPROM programmed?** Message me — I may be able to help.
 
-3.  Note - Even though Stargate uses a 2716 for its main board, 2532 is still needed for the stereo board.
+## Thank You
 
-4. Remove the screws from your existing sound board and replace them with the hex standoffs.   Reuse the existing screws to mount the stereo board to the standoffs.
+Thanks to Synamax for reverse-engineering the Sinistar source code and creating the Joust and Stargate versions of the stereo ROM. Check out his story here:
 
-5.  Need a 2532 eprom programmed?   Message me and I may be able to help.
-
-### Thank you
-
-to Synamax for reverse engineering the Sinistar source code and making the Joust and Stargate versions of the stereo rom.  Check out his story here...
-
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/ZRDdKZ7V54I"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
-
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZRDdKZ7V54I" title="Synamax's Williams stereo ROM story" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
