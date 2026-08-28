@@ -1,10 +1,17 @@
 title: BSG Electronics Blog
 description: Technical articles and build notes
 theme: minima
+
 permalink: /:title/
 
 # Required for custom domain
 url: https://blog.bsgelectronics.com
-
 # MUST be empty or removed for custom domain
 # baseurl: /blog
+
+# Show a post excerpt (first paragraph, or up to <!--more-->) on the homepage list
+show_excerpts: true
+
+minima:
+  # Controls how post dates are formatted throughout the site, including the homepage list
+  date_format: "%b %-d, %Y"
