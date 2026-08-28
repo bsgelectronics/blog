@@ -4,6 +4,8 @@ title: "Binary Clock Kit - Build Instructions"
 date: 2025-04-15
 ---
 
+### Tell time in Binary
+
 ## Overview and Setup Instructions
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ggWfU79ehuo" title="Binary Clock Kit overview and setup" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
