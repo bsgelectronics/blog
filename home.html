@@ -1,0 +1,98 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+
+      {%- comment -%}
+        Plugin-free way to grab the first <img src="..."> from the post's
+        rendered HTML. Splits on '<img ', then on '>', then pulls src="...".
+        If the post has no image, img_src stays empty and no thumbnail renders.
+      {%- endcomment -%}
+      {%- assign img_search = post.content | split: '<img ' -%}
+      {%- assign img_src = '' -%}
+      {%- if img_search.size > 1 -%}
+        {%- assign img_tag = img_search[1] | split: '>' | first -%}
+        {%- assign img_src = img_tag | split: 'src="' | last | split: '"' | first -%}
+      {%- endif -%}
+
+      <li>
+        <div class="post-preview">
+
+          {%- if img_src != '' -%}
+            <a class="post-preview-thumb" href="{{ post.url | relative_url }}">
+              <img src="{{ img_src }}" alt="" loading="lazy">
+            </a>
+          {%- endif -%}
+
+          <div class="post-preview-body">
+            <span class="post-meta">{{ post.date | date: site.minima.date_format | default: "%b %-d, %Y" }}</span>
+
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h3>
+
+            {%- if site.show_excerpts -%}
+              {{ post.excerpt | strip_html | truncatewords: 30 }}
+            {%- endif -%}
+          </div>
+
+        </div>
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+  {%- endif -%}
+
+</div>
+
+<style>
+  .post-preview {
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+    margin-bottom: 1.75rem;
+  }
+  .post-preview-thumb {
+    flex: 0 0 auto;
+    display: block;
+  }
+  .post-preview-thumb img {
+    width: 140px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+  }
+  .post-preview-body {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+  .post-preview-body h3 {
+    margin: 0.15rem 0 0.35rem 0;
+  }
+  @media (max-width: 480px) {
+    .post-preview {
+      flex-direction: column;
+    }
+    .post-preview-thumb img {
+      width: 100%;
+      height: auto;
+      max-height: 180px;
+    }
+  }
+</style>
