@@ -16,7 +16,7 @@ You will also need a soldering iron, an Arduino Uno, wire cutters, and a PC with
 
 2. **Assemble the upper components.** Insert the LEDs, switches, resistors, jumper pin, and the ZIF socket. LEDs must be inserted in the correct orientation — the longer leg should go in the hole on the opposite side of the flat mark on the board.
 
-   ![LED orientation reference]({{ site.baseurl }}/assets/images/2114/led.jpg)
+   ![LED orientation reference]({{ site.baseurl }}/assets/images/4164/IMG_20260831_174839442_HDR.jpg)
 
 3. **Check your work.** The board should look like this with all components inserted.
 
