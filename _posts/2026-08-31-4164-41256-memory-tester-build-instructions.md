@@ -12,7 +12,7 @@ You will also need a soldering iron, an Arduino Uno, wire cutters, and a PC with
 
 1. **Identify the included parts.** These are the parts included in the kit.
 
-   ![Kit contents laid out before assembly]({{ site.baseurl }}/assets/images/2114/contents.jpg)
+   ![Kit contents laid out before assembly]({{ site.baseurl }}/assets/images/4164/IMG_20260823_080329195.jpg)
 
 2. **Assemble the upper components.** Insert the LEDs, switches, resistors, jumper pin, and the ZIF socket. LEDs must be inserted in the correct orientation — the longer leg should go in the hole on the opposite side of the flat mark on the board.
 
