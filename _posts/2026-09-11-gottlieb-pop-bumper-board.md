@@ -4,6 +4,8 @@ title: "Gottlieb System 80/80A/80B Pop Bumper Driver Board"
 date: 2026-09-11
 ---
 
+![POP Bumper Board]({{ site.baseurl }}/assets/images/pop/all.jpg)
+
 ### A drop-in replacement driver board for Gottlieb System 80, 80A, and 80B pop bumpers
 
 ## Introduction
