@@ -14,7 +14,7 @@ Original pop bumper driver boards in Gottlieb System 80/80A/80B machines are dec
 
 ## Key Features
 
-- **Works with 24V and 38V coils** — one board covers both coil voltages used across the System 80 family, so you don't need to track down a specific revision for your machine.
+- **Works with all System 80 gamess** — one board covers both coil voltages used across the System 80 family.
 
 - **Built-in test button and status LEDs** — press the test button and watch the LEDs do the diagnosis for you. Red shows +5V, yellow shows +24V/+38V, and green flashes with each coil pulse. No multimeter required to confirm the board is alive and firing.
 
