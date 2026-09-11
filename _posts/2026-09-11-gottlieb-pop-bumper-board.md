@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gottlieb System 80/80A/80B Pop Bumper Driver Board"
+title: "Gottlieb Pop Bumper Driver Board"
 date: 2026-09-11
 ---
 
