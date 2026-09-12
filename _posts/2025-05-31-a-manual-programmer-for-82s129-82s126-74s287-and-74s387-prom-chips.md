@@ -58,9 +58,12 @@ Note the orientation of the blue push buttons — don't accidentally install the
 
 ![Correct orientation of the blue push buttons]({{ site.baseurl }}/assets/images/82s129/Buttons.jpg)
 
-## Buy the PCB
+## Buy It
 
-Available on this site and eBay.
+Available at:
+
+- [BSG Electronics](https://bsgelectronics.com/manual-prom-programmer-pcb-for-82s129-82s126-74s287-74s387-pcb-only/)
+- [eBay](https://www.ebay.com/itm/167553590693)
 
 ## Digikey List (Key Parts)
 
