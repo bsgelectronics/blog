@@ -58,7 +58,7 @@ I added stereo to my Stargate and it sounds great! Unfortunately, it's difficult
 
 2. **Jumper the stereo board for a 2532 EPROM.** Connect the W1, W3, W4, W5, W7, W10, and W15 jumpers; remove all other jumpers. See [jestersattic.com's Williams sound board reference](https://www.jestersattic.com/wms_snd.php) for more detail.
 
-   ![Stereo board jumper configuration]({{ site.baseurl }}/assets/images/williams/jumpers.jpg)
+   ![Stereo board jumper configuration]({{ site.baseurl }}/assets/images/williams/jumpers.png)
 
 3. **Note:** even though Stargate uses a 2716 for its main board, a 2532 is still needed for the stereo board.
 
