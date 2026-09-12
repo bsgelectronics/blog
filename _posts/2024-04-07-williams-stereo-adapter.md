@@ -30,7 +30,7 @@ I added stereo to my Stargate and it sounds great! Unfortunately, it's difficult
 
 3. **A soldering iron** and experience with soldering.
 
-4. **An interconnect PCB.** This PCB avoids custom wiring or hacking of the stock harness — the stereo board taps all its connections right from the main harness and provides quick screw terminals for easy speaker hookup, plus a built-in volume pot. Available from [BSG Electronics](https://bsgelectronics.com/williams-stereo-interconnect-board).
+4. **An interconnect PCB.** This PCB avoids custom wiring or hacking of the stock harness — the stereo board taps all its connections right from the main harness and provides quick screw terminals for easy speaker hookup, plus a built-in volume pot. Available from [BSG Electronics](https://bsgelectronics.com/williams-stereo-interconnect-board) or [Ebay](https://www.ebay.com/itm/166732603746).
 
    ![Williams stereo interconnect board]({{ site.baseurl }}/assets/images/williams/board.jpg)
 
