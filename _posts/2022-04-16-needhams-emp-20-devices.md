@@ -1,5 +1,7 @@
 ## Needham's EMP-20 Device List
 
+![emp20]({{ site.baseurl }}/assets/images/emp20/emp20.jpg)
+
 **GENERIC**
 
 ◦ 2716 (01A) 
