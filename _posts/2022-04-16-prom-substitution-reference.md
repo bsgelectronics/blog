@@ -6,6 +6,8 @@ date: 2022-04-16
 
 ## PROM Substitution Reference
 
+![82s123]({{ site.baseurl }}/assets/images/82s123/82s123.png)
+
 
 V1.6 Jan 13,1999 (Additions by - Mike - Last Update Dec. 6, 2016
 
