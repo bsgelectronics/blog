@@ -61,3 +61,10 @@ You will also need a soldering iron, an Arduino Uno, wire cutters, and a PC with
 3. Press **Start Test** to run the test cycle.   
 
 4. **Solid green = good**, **solid red = bad**.
+
+## Buy It
+
+Available at:
+
+- [BSG Electronics](https://bsgelectronics.com/4164-41256-ram-tester-shield-for-arduino-uno/)
+- [eBay](https://www.ebay.com/itm/168633693533)
