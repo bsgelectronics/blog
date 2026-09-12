@@ -12,6 +12,8 @@ date: 2026-09-11
 
 Original pop bumper driver boards in Gottlieb System 80/80A/80B machines are decades old at this point, and a lot of them are getting flaky or failing outright. Rather than chase down bad transistors and cracked traces on an original board, I designed this replacement board to be a straightforward drop-in fix.
 
+![POP Bumper Boards in place]({{ site.baseurl }}/assets/images/pop/IMG_20250802_103339624_HDR.jpg)
+
 ## Key Features
 
 - **Works with all System 80 gamess** — one board covers both coil voltages used across the System 80 family.
@@ -19,6 +21,8 @@ Original pop bumper driver boards in Gottlieb System 80/80A/80B machines are dec
 - **Built-in test button and status LEDs** — press the test button and watch the LEDs do the diagnosis for you. Red shows +5V, yellow shows +24V/+38V, and green flashes with each coil pulse. No multimeter required to confirm the board is alive and firing.
 
 - **New screws and standoffs included** — everything you need to mount the board is in the kit, right down to the hardware.
+
+![Test button]({{ site.baseurl }}/assets/images/pop/test.jpg)
 
 ## Buy It
 
