@@ -1,5 +1,5 @@
 **Needham's EMP-30 Device List**
-
+![emp30]({{ site.baseurl }}/assets/images/emp30/emp30.jpg)
 
 **GENERIC**
 2716-dip (301A)	2732-dip (301A)	2732A-dip (301A)
