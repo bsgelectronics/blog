@@ -22,7 +22,7 @@ Available at:
 - [eBay](https://www.ebay.com/itm/168638055615)
 
 ## Warning
-1. I have seen multiple system 80 machines where the key, (blank), plastic has fallen out of the power connectors potentially allowing for power lines to be plugged in backwards.  Inspect yours and take a picture of your old board and wires before you unplug anything.  Here is my Black Hole with a piece of wire glued in as a replacement key.
+1. I have seen multiple system 80 machines where the key, (blank), plastic has fallen out of the power connectors potentially allowing for power lines to be plugged in backwards which could seriously damage your machine.  Inspect yours and take a picture of your old board and wires before you unplug anything.  Here is my Black Hole with a piece of wire glued in as a replacement key.
 
 ![Missing Key](/assets/images/system80power/key.jpg)
 
