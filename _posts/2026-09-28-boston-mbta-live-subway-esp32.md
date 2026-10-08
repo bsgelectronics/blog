@@ -86,14 +86,6 @@ https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=dow
    
 6. **Run the LED test.** Briefly press the test button to cycle through direction 0, direction 1, and all LEDs. Check for LEDs that do not light or appear in the wrong direction.  If you do have a dead led, it may be in backwards.  Look closely inside the plastic and compare the internal orientation with other working leds.
 
-11. **Configure and upload the firmware.** .
-
-    <!-- CUSTOMIZE: Add the firmware download URL, tested ESP32 board selection, ESP32 core version, ArduinoJson version, and exact upload settings. -->
-
-    > **Security note:** Do not publish a firmware file containing your Wi-Fi password or private API key.
-
-12. **Verify live operation.** Open the Arduino Serial Monitor at **115200 baud**. After the ESP32 connects to Wi-Fi, it will request current MBTA vehicle data and update the map. The Wi-Fi status LED remains on while connected.
-
 ## Using the Tracker
 
 - A **short press** of the test button cycles through the two travel directions and then all LEDs.
@@ -107,20 +99,7 @@ The ESP32 requests live subway and light-rail vehicle records from the MBTA V3 A
 
 The three LED drivers use I2C addresses `0x71`, `0x72`, and `0x75`. They share the same data and clock lines, allowing the ESP32 to control the complete map with only two I2C pins. The firmware also includes alternate MBTA stop IDs used by some platforms and branches so that trains continue to appear at the correct station.
 
-## Firmware and Downloads
-
-<!-- CUSTOMIZE: Replace these notes with links before publishing. -->
-
-- Firmware: add the public source-code or ZIP-download link
-- Bill of materials: add the BOM link
-- Schematic: add the schematic link
-- PCB assembly drawing: add the assembly drawing link
-
 ## Troubleshooting
-
-### An LED never lights during the test
-
-Check the LED polarity and both solder joints. If those are correct, inspect the connection between that LED and its HT16K33 driver.
 
 ### Several LEDs do not light
 
@@ -130,9 +109,6 @@ Look for a common unsoldered pin, solder bridge, or damaged trace. If an entire 
 
 Confirm the network name and password in the sketch. The ESP32 must be able to reach a 2.4 GHz Wi-Fi network with internet access.
 
-### The test works, but live locations do not appear
-
-Open the Serial Monitor at 115200 baud and check the Wi-Fi and MBTA API messages. Verify the API key and wait for the next refresh. Temporary MBTA API or network errors are retried automatically.
 
 ## Buy the Kit
 
