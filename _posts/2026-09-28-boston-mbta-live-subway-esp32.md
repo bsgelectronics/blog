@@ -59,16 +59,17 @@ This kit uses 3x HT16K33 led driver chips.  This type of chip is only available 
 
 1. Get your own MBTA key.  You'll need this to customize the esp32 sketch before uploading it.
 
-https://www.mbta.com/developers/v3-api
+[MBTA API Keys](https://www.mbta.com/developers/v3-api)
 
 2. Download the firmware sketch and edit it with your Wifi SSID, WiFi Password, and your MBTA key
 3. Connect the esp32 to your PC via a USB.  Install the Arduino IDE and ensure you can connect to the ESP32
-https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE
-5. Upload the sketch to your esp32.  Ensure it lights up and that it is functioning before you begin soldering it in place.
-6. You may need to install esp32 drivers before you can connect the esp32 to your windows pc.  I n
 
-https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE
-https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
+[Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
+
+4. Upload the sketch to your esp32.  Ensure it lights up and that it is functioning before you begin soldering it in place.
+5. You may need to install esp32 drivers before you can connect the esp32 to your windows pc.  I n
+
+[ESP32 Drivers](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads)
 
 ## Starter Assembly Instructions
 
@@ -80,7 +81,7 @@ https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=dow
 
    ![Soldering the station LEDs on the MBTA tracker PCB]({{ site.baseurl }}/assets/images/mbta/red.jpg)
    
-4. **SLOW DOWN when trimming wires!** There are hundreds of small traces across the pcb connecting to each LED location.  Resist the temptation to move quickly when clipping wires as it is very easy to nick a trace with your cutters.  Go slow and make sure you don't scratch the PCB surface.
+4. ****SLOW DOWN when trimming wires!**** There are hundreds of small traces across the pcb connecting to each LED location.  Resist the temptation to move quickly when clipping wires as it is very easy to nick a trace with your cutters.  Go slow and make sure you don't scratch the PCB surface.
 
 5. **Only connect 1 power supply and ensure correct polarity.** The kit can be run via USB to the esp32, but the power draw is close to the limit of what the esp32 board can deliver.  For this reason, it is not recommended to run the board full time via USB.  The board can be run via a 5v AC/DC wall adapter either via barrel jack or wires into screw terminals.  Only connect one option at a time! You are responsible to make sure you have positive connected to positive and negative to negative!   If you need an adapter, I recommend this one from Amazon.
    
@@ -112,9 +113,8 @@ Confirm the network name and password in the sketch. The ESP32 must be able to r
 
 ## Buy the Kit
 
-<!-- CUSTOMIZE: Add store links, kit options, included parts, and availability when ready. -->
-
-This project is currently in development. Kit ordering information will be added here when it is available.
+- [BSG](https://bsgelectronics.com/boston-mbta-subway-system-live-led-tracker-red-blue-green-orange-diy-solder-kit/)
+- [eBay](https://www.ebay.com/itm/168803840246)
 
 
 
