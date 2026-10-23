@@ -77,7 +77,7 @@ This kit uses 3x HT16K33 led driver chips.  This type of chip is only available 
 
 1. **Diode and LED orientation** LEDs and Diodes MUST be installed in the correct orientation. Backwards installed LEDs will not work! Diodes should have the stripe matching the stripe on the silkscreen background.  LEDs should have the long leg installed into the circular hole and the short leg installed into the square hole.
 
-   ![LED Orientation]({{ site.baseurl }}/assets/images/mbta/LED.jpg)
+   ![LED Orientation]({{ site.baseurl }}/assets/images/mbta/led.jpg)
 
 3. **Assembly Order** The inbound and outbound stations are very close together making it easy to possibly get a solder bridge between wires.  I had better luck installing, soldering, and trimming one side of the line first.
 
