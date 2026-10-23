@@ -67,13 +67,13 @@ This kit uses 3x HT16K33 led driver chips.  This type of chip is only available 
 [Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
 
 4. Upload the sketch to your esp32.  Ensure it lights up and that it is functioning before you begin soldering it in place.
-5. You may need to install esp32 drivers before you can connect the esp32 to your windows pc.  I n
+5. You may need to install esp32 drivers before you can connect the esp32 to your windows pc.
 
 [ESP32 Drivers](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads)
 
 ## Starter Assembly Instructions
 
-> **Assembly Tips:** Review the layout of the parts to ensure you know where everything goes.  NOTE -   .
+> **Assembly Tips:** Review the layout of the parts to ensure you know where everything goes.
 
 1. **Diode and LED orientation** LEDs and Diodes MUST be installed in the correct orientation. Backwards installed LEDs will not work! Diodes should have the stripe matching the stripe on the silkscreen background.  LEDs should have the long leg installed into the circular hole and the short leg installed into the square hole.
 
