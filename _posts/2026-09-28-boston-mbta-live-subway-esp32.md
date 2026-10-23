@@ -62,7 +62,10 @@ This kit uses 3x HT16K33 led driver chips.  This type of chip is only available 
 [MBTA API Keys](https://www.mbta.com/developers/v3-api)
 
 2. Download the firmware sketch and edit it with your Wifi SSID, WiFi Password, and your MBTA key
-3. Connect the esp32 to your PC via a USB.  Install the Arduino IDE and ensure you can connect to the ESP32
+   
+[mbta sketch]((https://github.com/bsgelectronics/MBTA-LED-Tracker/blob/main/MBTAtracker1.ino))
+   
+4. Connect the esp32 to your PC via a USB.  Install the Arduino IDE and ensure you can connect to the ESP32
 
 [Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
 
